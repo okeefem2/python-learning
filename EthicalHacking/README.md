@@ -16,5 +16,3 @@ Create a new container to use for networking
 
 `docker run -dit --network=host --name alpine-target alpine ash`
 
-`netdiscover -r 172.17.0.1/16` gives the ips on the network in the given range
-`netdiscover -r 192.168.65.1/255` for using host network on my macbook
