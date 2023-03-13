@@ -11,6 +11,7 @@ RUN rm -fR /var/lib/apt/ && \
     apt-get install -y iputils-ping && \
     apt-get install -y netdiscover && \
     apt-get install -y pip && \
+    apt-get install -y dsniff && \
     apt-get install sudo -y
 
 CMD ["/bin/bash"]
